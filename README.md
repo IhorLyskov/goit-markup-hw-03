@@ -1,3 +1,3 @@
-# goit-markup-hw-02
+# goit-markup-hw-03
 
-Homework1 rel="noopener nofollow noreferrer"
+rel="noopener nofollow noreferrer"
