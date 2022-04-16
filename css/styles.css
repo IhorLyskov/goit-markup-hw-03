@@ -64,7 +64,7 @@ body {
 
 img {
   display: block;
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -312,6 +312,7 @@ img {
 }
 
 .team-list .text {
+  margin: 0;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -363,9 +364,6 @@ img {
   text-decoration: none;
 }
 
-.footer-address .footer-tel + footer-tel {
-}
-
 .footer-tel:hover,
 .footer-tel:focus {
   color: var(--accent-color);
@@ -383,6 +381,7 @@ img {
 .filters .item + .item {
   margin-left: 8px;
 }
+
 .filters .btn {
   padding: 6px 22px;
   border-radius: 4px;
@@ -419,7 +418,8 @@ img {
 }
 
 .project-data {
-  margin: 20px 24px;
+  /* display: block; */
+  padding: 20px 24px;
 }
 
 .project-data .title {
